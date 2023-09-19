@@ -1,4 +1,44 @@
 *,
+::before ::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #57577a;
+  --main-font: arial;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main {
+  background-color: var(--main-color);
+  height: 400px;
+  padding: 20px;
+  border: 10px solid black;
+  margin: 20px;
+}
+
+*,
 ::after ::before {
   box-sizing: border-box;
 }
